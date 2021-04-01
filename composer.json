@@ -23,7 +23,8 @@
     ],
     "require": {
         "silverstripe/recipe-plugin" : "^1.2",
-        "nswdpc/silverstripe-authentication-boilerplate": "^0.1"
+        "nswdpc/silverstripe-authentication-boilerplate": "^0.1",
+        "nswdpc/silverstripe-recaptcha-v3" : "^0.1"
     },
     "config": {
         "process-timeout": 600

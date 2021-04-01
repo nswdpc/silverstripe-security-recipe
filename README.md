@@ -2,13 +2,22 @@
 
 A recipe for adding MFA, pwned password check, breached account check, and security reporting to a Silverstripe website.
 
-The [nswdpc/silverstripe-authentication-boilerplate](https://github.com/nswdpc/silverstripe-authentication-boilerplate) module requires the following modules/features:
+## In this recipe 
 
-+ MFA for the administration area via the [Silverstripe TOTP Authenticator](https://github.com/silverstripe/silverstripe-totp-authenticator)
-+ [Pwned Password checks](nswdpc/silverstripe-pwnage-hinter) via the pwnedpasswords API provided by [Have I Been Pwned](https://haveibeenpwned.com)
-+ [Breached account checks](nswdpc/silverstripe-pwnage-hinter) via the haveibeenpwned API provided by [Have I Been Pwned](https://haveibeenpwned.com)
-+ The [security extensions module](https://github.com/silverstripe/silverstripe-security-extensions)
-+ The [security report module](https://github.com/silverstripe/silverstripe-securityreport)
+### Authentication boilerplate
+
++ The [nswdpc/silverstripe-authentication-boilerplate](https://github.com/nswdpc/silverstripe-authentication-boilerplate), providing:
+
+ + Multi-factor Authentication (MFA) for the administration area via the [Silverstripe TOTP Authenticator](https://github.com/silverstripe/silverstripe-totp-authenticator)
+ + [Pwned Password checks](nswdpc/silverstripe-pwnage-hinter) via the pwnedpasswords API provided by [Have I Been Pwned](https://haveibeenpwned.com)
+ + [Breached account checks](nswdpc/silverstripe-pwnage-hinter) via the haveibeenpwned API provided by [Have I Been Pwned](https://haveibeenpwned.com)
+ + The [security extensions module](https://github.com/silverstripe/silverstripe-security-extensions)
+ + The [security report module](https://github.com/silverstripe/silverstripe-securityreport)
+
+### Captcha
+
++ The [NSWDPC reCAPTCHA v3](https://github.com/nswdpc/silverstripe-recaptcha-v3) base module
+
 
 ## Configuration
 
