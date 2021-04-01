@@ -1,0 +1,33 @@
+{
+    "name": "nswdpc/silverstripe-security-recipe",
+    "description": "Recipe for adding MFA, Password check, Breached account check, Security report to a Silverstripe application",
+    "type": "silverstripe-recipe",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "James Ellis",
+            "homepage": "https://dpc.nsw.gov.au",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+      "silverstripe",
+      "security",
+      "mfa",
+      "password",
+      "hibp",
+      "2fa",
+      "totp",
+      "pwnedpasswords",
+      "haveibeenpwned"
+    ],
+    "require": {
+        "silverstripe/recipe-plugin" : "^1.2",
+        "nswdpc/silverstripe-authentication-boilerplate": "^0.1"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
