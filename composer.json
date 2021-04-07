@@ -26,7 +26,7 @@
         "nswdpc/silverstripe-authentication-boilerplate": "^0.1",
         "nswdpc/silverstripe-recaptcha-v3" : "^0.1",
         "nswdpc/silverstripe-csp": "dev-master",
-        "silverstripe/login-forms": "^4.1.0"
+        "silverstripe/login-forms": "^4.3.0"
     },
     "config": {
         "process-timeout": 600
