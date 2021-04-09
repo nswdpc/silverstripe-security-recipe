@@ -1,6 +1,6 @@
 # Silverstripe security recipe
 
-A recipe for adding MFA, pwned password check, breached account check, and security reporting to a Silverstripe website.
+A recipe for adding various security-focused modules to a Silverstripe website.
 
 ## In this recipe 
 
@@ -10,8 +10,8 @@ A recipe for adding MFA, pwned password check, breached account check, and secur
   + Multi-factor Authentication (MFA) for the administration area via the [Silverstripe TOTP Authenticator](https://github.com/silverstripe/silverstripe-totp-authenticator)
   + [Pwned Password checks](nswdpc/silverstripe-pwnage-hinter) via the pwnedpasswords API provided by [Have I Been Pwned](https://haveibeenpwned.com)
   + [Breached account checks](nswdpc/silverstripe-pwnage-hinter) via the haveibeenpwned API provided by [Have I Been Pwned](https://haveibeenpwned.com)
-  + The [security extensions module](https://github.com/silverstripe/silverstripe-security-extensions)
-  + The [security report module](https://github.com/silverstripe/silverstripe-securityreport)
+  + The [Silverstripe security extensions module](https://github.com/silverstripe/silverstripe-security-extensions)
+  + The [Silverstripe security report module](https://github.com/silverstripe/silverstripe-securityreport)
 
 ### Content Security Policy
 
