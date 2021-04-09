@@ -13,10 +13,18 @@ A recipe for adding MFA, pwned password check, breached account check, and secur
   + The [security extensions module](https://github.com/silverstripe/silverstripe-security-extensions)
   + The [security report module](https://github.com/silverstripe/silverstripe-securityreport)
 
+### Content Security Policy
+
++ The [NSWDPC CSP](https://github.com/nswdpc/silverstripe-csp) module
+
 ### Captcha
 
 + The [NSWDPC reCAPTCHA v3](https://github.com/nswdpc/silverstripe-recaptcha-v3) base module
 
+### Useful extras
+
++ [silverstripe/login-forms](https://github.com/silverstripe/silverstripe-login-forms)
++ [silverstripe/mimevalidator](https://github.com/silverstripe/silverstripe-mimevalidator)
 
 ## Configuration
 
