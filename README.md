@@ -28,7 +28,7 @@ A recipe for adding various security-focused modules to a Silverstripe website.
 
 ## Configuration
 
-Per the Silverstripe recipe standard there is no configuration provided in this module. Its aim is to bring together a set of Silverstripe security modules to be used together in a standardised way. Default configuration settings can be found in recipe modules.
+There is no configuration provided in this recipe. Its aim is to bring together a set of Silverstripe security modules to be used together in a standardised way. Default configuration settings can be found in the recipe's modules and can be overridden on a per-project basis.
 
 The authentication boilerplate module provides a standard set of rules for defining access to websites. You can modify these rules using the Silverstripe configuration API.
 
