@@ -27,7 +27,8 @@
         "nswdpc/silverstripe-recaptcha-v3" : "^0.1",
         "nswdpc/silverstripe-csp": "^0.3",
         "silverstripe/login-forms": "^4.3.0",
-        "silverstripe/mimevalidator": "^2.1"
+        "silverstripe/mimevalidator": "^2.1",
+        "silverstripe/dynamodb": "^4"
     },
     "config": {
         "process-timeout": 600
