@@ -26,6 +26,10 @@ A recipe for adding various security-focused modules to a Silverstripe website.
 + [silverstripe/login-forms](https://github.com/silverstripe/silverstripe-login-forms)
 + [silverstripe/mimevalidator](https://github.com/silverstripe/silverstripe-mimevalidator)
 
+### Sessions
+
++ [DynamoDB sessions](https://github.com/silverstripe/silverstripe-dynamodb)
+
 ## Configuration
 
 There is no configuration provided in this recipe. Its aim is to bring together a set of Silverstripe security modules to be used together in a standardised way. Default configuration settings can be found in the recipe's modules and can be overridden on a per-project basis.
