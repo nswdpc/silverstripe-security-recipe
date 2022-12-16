@@ -24,7 +24,7 @@
     "require": {
         "silverstripe/recipe-plugin" : "^1.5",
         "nswdpc/silverstripe-authentication-boilerplate": "<1.0",
-        "nswdpc/silverstripe-recaptcha-v3" : "^0.2",
+        "nswdpc/silverstripe-recaptcha-v3" : "*",
         "nswdpc/silverstripe-csp": "*",
         "silverstripe/login-forms": "^4.3.0",
         "silverstripe/mimevalidator": "^2.1",
