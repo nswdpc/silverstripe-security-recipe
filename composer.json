@@ -22,13 +22,13 @@
       "haveibeenpwned"
     ],
     "require": {
-        "silverstripe/recipe-plugin" : "^1.5",
+        "silverstripe/recipe-plugin" : "^1.7",
         "nswdpc/silverstripe-authentication-boilerplate": "<1.0",
-        "nswdpc/silverstripe-recaptcha-v3" : "*",
-        "nswdpc/silverstripe-csp": "*",
-        "silverstripe/login-forms": "^4.3.0",
-        "silverstripe/mimevalidator": "^2.1",
-        "silverstripe/dynamodb": "^4"
+        "nswdpc/silverstripe-recaptcha-v3" : "<1",
+        "nswdpc/silverstripe-csp": "<1",
+        "silverstripe/login-forms": "^4.9.0",
+        "silverstripe/mimevalidator": "^2.4",
+        "silverstripe/dynamodb": "^4.1"
     },
     "config": {
         "process-timeout": 600
